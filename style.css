@@ -1,0 +1,140 @@
+/*
+  style.css
+  Main stylesheet for the Cost Manager application.
+  Defines the visual layout, typography, UI components (cards, forms, tables),
+  and styling for empty states and responsive design.
+*/
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard {
+    max-width: 1000px; /*Possible Change - 65%*/
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+h3 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    outline: none;
+    min-width: 150px;
+    flex: 1;
+}
+
+input:focus, select:focus {
+    border-color: #2c3e50;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    min-width: 150px;
+    flex: 1;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+td, th {
+    padding: 12px;
+}
+
+.total-sum {
+    color: #27ae60;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 14px;
+    color: gray;
+}
+
+.settings-box {
+    display: flex;
+    gap: 10px;
+}
+
+.chart-box {
+    flex: 1;
+    min-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.canvas-wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.charts-row {
+    display: flex;
+    gap: 20px;
+}
+
+.no-costs-message {
+    color: gray;
+    text-align: center;
+}
+
+.empty-chart-message {
+    text-align: center;
+    color: gray;
+    line-height: 300px;
+}
+
+
