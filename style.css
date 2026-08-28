@@ -7,12 +7,13 @@
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #f4f7f6;
+    background-color: #f8fafc;
+    color: #111827;
     margin: 0;
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: #111827;
     color: white;
     padding: 20px;
     text-align: center;
@@ -20,24 +21,28 @@ header {
 
 .dashboard {
     max-width: 1000px; /*Possible Change - 65%*/
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 0 20px;
 }
 
 .card {
     background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid #f1f5f9;
 }
 
 h2 {
-    color: #2c3e50;
+    color: #111827;
+    margin-top: 0;
+    border-bottom: 2px solid #111827;
+    display: inline-block;
 }
 
 h3 {
-    color: #2c3e50;
+    color: #111827;
     text-align: center;
 }
 
@@ -50,30 +55,30 @@ form {
 
 input, select {
     padding: 10px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
     outline: none;
     min-width: 150px;
     flex: 1;
 }
 
 input:focus, select:focus {
-    border-color: #2c3e50;
+    border-color: #111827;
 }
 
 button {
-    background-color: #3498db;
+    background-color: #111827;
     color: white;
     border: none;
     font-weight: bold;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 10px;
     min-width: 150px;
     flex: 1;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #374151;
 }
 
 table {
@@ -86,11 +91,17 @@ table {
 
 td, th {
     padding: 12px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+th {
+    color: #4e5a6c;
+    font-weight: 600;
 }
 
 .total-sum {
     color: #27ae60;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     text-align: right;
     margin-top: 15px;
@@ -98,7 +109,7 @@ td, th {
 
 p {
     font-size: 14px;
-    color: gray;
+    color: #4e5a6c;
 }
 
 .settings-box {
@@ -111,9 +122,8 @@ p {
     min-width: 300px;
     background-color: white;
     padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
 .canvas-wrapper {
@@ -128,13 +138,14 @@ p {
 }
 
 .no-costs-message {
-    color: gray;
+    color: #64748b;
     text-align: center;
+
 }
 
 .empty-chart-message {
     text-align: center;
-    color: gray;
+    color: #64748b;
     line-height: 300px;
 }
 
