@@ -5,7 +5,7 @@
   and renders dynamic data into tables and Chart.js components.
 */
 const dbName = 'costsdb';
-const chartColors = ['#3498db', '#e74c3c', '#f1c40f', '#2ecc71', '#9b59b6', '#e67e22', '#1abc9c'];
+const chartColors = ['#1e40af', '#3b82f6', '#9ca3af', '#111827', '#06b6d4', '#4b5563', '#93c5fd'];
 const monthsNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const ratesFetchInterval = 1000 * 60 * 60;
 const ratesDefaultUrl = './rates.json';
