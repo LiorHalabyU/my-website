@@ -131,7 +131,7 @@
     */
     function openCostsDB(databaseName, databaseVersion){
         // Check if database name is non-empty string
-        if(typeof dbName !== 'string' || dbName.trim() === ''){
+        if(typeof databaseName !== 'string' || databaseName.trim() === ''){
             throw new Error('DB name must be a non-empty string');
         }
 
