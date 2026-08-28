@@ -8,7 +8,7 @@ const dbName = 'costsdb';
 const chartColors = ['#1e40af', '#3b82f6', '#9ca3af', '#111827', '#06b6d4', '#4b5563', '#93c5fd'];
 const monthsNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const ratesFetchInterval = 1000 * 60 * 60;
-const ratesDefaultUrl = './rates.json';
+const ratesDefaultUrl = 'https://cost-manager-2o03.onrender.com/';
 
 // Initialize the application and UI state when the DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
